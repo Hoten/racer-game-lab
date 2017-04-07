@@ -8,6 +8,33 @@
     height: 100px;
 }
 
-.redBox {
+#redBox {
     background-color: red;
+}
+
+#blueBox {
+    background-color: blue;
+}
+
+#start-menu {
+    background-image: url("images/start-menu-bg.jpg");
+    background-size: cover;
+    height: 800px;
+}
+
+.hidden {
+    display: none !important;
+}
+
+#start-button {
+    display: block;
+    margin: 0 auto;
+}
+
+.red-track .box {
+    background-color: pink;
+}
+
+.blue-track .box {
+    background-color: teal;
 }
